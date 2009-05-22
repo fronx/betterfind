@@ -1,0 +1,2 @@
+#!/usr/bin/env ruby
+puts `find -E . -regex '.*(#{ARGV.join('|')}).*'`
